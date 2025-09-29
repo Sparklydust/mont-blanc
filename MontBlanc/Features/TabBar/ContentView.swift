@@ -7,13 +7,32 @@ import SwiftUI
 struct ContentView: View {
 
   var body: some View {
-    VStack {
-      Image(systemName: "globe")
-        .imageScale(.large)
-        .foregroundStyle(.tint)
-      Text("Hello, world!")
+    TabView {
+      Tab("Charts", systemImage: "chart.bar.fill") {
+        charts
+      }
     }
-    .padding()
+  }
+
+  private var charts: some View {
+    NavigationStack {
+      List {
+        NavigationLink {
+          FirstChartView()
+            .navigationTitle("Chapter 1 - First Chart")
+        } label: {
+          Text("Chapter 1 - First Chart")
+        }
+
+        NavigationLink {
+          AreaMarkView()
+            .navigationTitle("Chapter 2 - Area Mark")
+        } label: {
+          Text("Chapter 2 - Area Mark")
+        }
+      }
+      .navigationTitle("Charts")
+    }
   }
 }
 
