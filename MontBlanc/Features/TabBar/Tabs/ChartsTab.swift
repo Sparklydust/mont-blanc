@@ -29,6 +29,13 @@ struct ChartsTab: View {
         } label: {
           Text("Chapter 3 - Bar Mark")
         }
+
+        NavigationLink {
+          LineMarkView()
+            .navigationTitle("Chapter 4 - Line Mark")
+        } label: {
+          Text("Chapter 4 - Line Mark")
+        }
       }
       .navigationTitle("Charts")
     }

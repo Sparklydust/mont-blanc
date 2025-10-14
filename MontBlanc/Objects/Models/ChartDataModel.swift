@@ -21,10 +21,19 @@ extension ChartDataModel {
       ChartDataModel(label: "Apr", value: 40)
     ]
   }
-}
 
-
-extension ChartDataModel {
+  static func mockYearData() -> [ChartDataModel] {
+    [
+      ChartDataModel(label: "Jan", value: 20),
+      ChartDataModel(label: "Feb", value: 10),
+      ChartDataModel(label: "Mar", value: 30),
+      ChartDataModel(label: "Apr", value: 40),
+      ChartDataModel(label: "May", value: 20),
+      ChartDataModel(label: "Jun", value: 80),
+      ChartDataModel(label: "Jul", value: 60),
+      ChartDataModel(label: "Aug", value: 100)
+    ]
+  }
 
   static func mockQuarterData() -> [ChartDataModel] {
     [
@@ -33,5 +42,14 @@ extension ChartDataModel {
       ChartDataModel(label: "Q3", value: 50),
       ChartDataModel(label: "Q4", value: 100)
     ]
+  }
+
+  static func mockYearData(numberOfYears: Int = 10) -> [ChartDataModel] {
+    var data: [ChartDataModel] = []
+    for year in 2000..<(2000 + numberOfYears) {
+      let value = Int.random(in: 20...100)
+      data.append(ChartDataModel(label: String(year), value: value))
+    }
+    return data
   }
 }
