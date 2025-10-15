@@ -4,76 +4,69 @@
 
 import SwiftUI
 
-struct LineMarkView: View {
+struct PointMarkView: View {
 
   var body: some View {
     List {
       NavigationLink {
-        LineMark_Basic()
+        PointMark_Basic()
           .navigationTitle("Basic")
       } label: {
         Text("Basic")
       }
 
       NavigationLink {
-        LineMark_Series()
+        PointMark_Series()
           .navigationTitle("Series")
       } label: {
         Text("Series")
       }
 
       NavigationLink {
-        LineMark_Interval()
+        PointMark_Series()
           .navigationTitle("Interval")
       } label: {
         Text("Interval")
       }
 
       NavigationLink {
-        LineMark_SeriesInterval()
+        PointMark_SeriesInterval()
           .navigationTitle("Series Interval")
       } label: {
         Text("Series Interval")
       }
 
       NavigationLink {
-        LineMark_LineStyle()
-          .navigationTitle("Line Style")
+        PointMark_SizeByValue()
+          .navigationTitle("Size By Value")
       } label: {
-        Text("Line Style")
+        Text("Size By Value")
       }
 
       NavigationLink {
-        LineMark_LineStyle_Series()
-          .navigationTitle("Line Style Series")
+        PointMark_Symbol()
+          .navigationTitle("Symbol")
       } label: {
-        Text("Line Style Series")
+        Text("Symbol")
       }
 
       NavigationLink {
-        LineMark_ChartLineStyleScale()
-          .navigationTitle("Chart Line Style Scale")
+        PointMark_CustomSymbol()
+          .navigationTitle("Custom Symbol")
       } label: {
-        Text("Chart Line Style Scale")
+        Text("Custom Symbol")
       }
 
       NavigationLink {
-        LineMark_ChartLineStyleScale_Dynamic()
-          .navigationTitle("Chart Line Style Scale Dynamic")
+        PointMark_Series_SymbolBy()
+          .navigationTitle("Series Symbol By")
       } label: {
-        Text("Chart Line Style Scale Dynamic")
-      }
-
-      NavigationLink {
-        LineMark_Interpolation()
-          .navigationTitle("Interpolation")
-      } label: {
-        Text("Interpolation")
+        Text("Series Symbol By")
       }
     }
   }
 }
 
 #Preview {
-  LineMarkView()
+  PointMarkView()
 }

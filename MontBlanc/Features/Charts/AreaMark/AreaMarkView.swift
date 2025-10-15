@@ -16,10 +16,10 @@ struct AreaMarkView: View {
       }
 
       NavigationLink {
-        AreaMark_Interpolation()
-          .navigationTitle("Interpolation")
+        AreaMark_Series()
+          .navigationTitle("Series")
       } label: {
-        Text("Interpolation")
+        Text("Series")
       }
 
       NavigationLink {
@@ -37,24 +37,24 @@ struct AreaMarkView: View {
       }
 
       NavigationLink {
-        AreaMark_IntervalInterpolation()
-          .navigationTitle("Interval Interpolation")
-      } label: {
-        Text("Interval Interpolation")
-      }
-
-      NavigationLink {
-        AreaMark_Series()
-          .navigationTitle("Series")
-      } label: {
-        Text("Series")
-      }
-
-      NavigationLink {
         AreaMark_SeriesInterval()
           .navigationTitle("Series Interval")
       } label: {
         Text("Series Interval")
+      }
+
+      NavigationLink {
+        AreaMark_Interpolation()
+          .navigationTitle("Interpolation")
+      } label: {
+        Text("Interpolation")
+      }
+
+      NavigationLink {
+        AreaMark_IntervalInterpolation()
+          .navigationTitle("Interval Interpolation")
+      } label: {
+        Text("Interval Interpolation")
       }
     }
   }

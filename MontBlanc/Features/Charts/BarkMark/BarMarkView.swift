@@ -16,17 +16,17 @@ struct BarMarkView: View {
       }
 
       NavigationLink {
-        BarMark_SeriesInterval()
-          .navigationTitle("Series Interval")
-      } label: {
-        Text("Series Interval")
-      }
-
-      NavigationLink {
         BarMark_Width()
           .navigationTitle("Width")
       } label: {
         Text("Width")
+      }
+
+      NavigationLink {
+        BarMark_Series()
+          .navigationTitle("Series")
+      } label: {
+        Text("Series")
       }
 
       NavigationLink {
@@ -37,10 +37,10 @@ struct BarMarkView: View {
       }
 
       NavigationLink {
-        BarMark_Series()
-          .navigationTitle("Series")
+        BarMark_SeriesInterval()
+          .navigationTitle("Series Interval")
       } label: {
-        Text("Series")
+        Text("Series Interval")
       }
 
       NavigationLink {
