@@ -5,7 +5,7 @@
 import Charts
 import SwiftUI
 
-struct AreaMark_Basics: View {
+struct AreaMark_Basic: View {
 
   private let data = ChartDataModel.mockQuarterData()
 
@@ -23,5 +23,5 @@ struct AreaMark_Basics: View {
 }
 
 #Preview {
-  AreaMark_Basics()
+  AreaMark_Basic()
 }

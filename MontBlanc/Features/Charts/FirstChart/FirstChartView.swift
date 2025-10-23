@@ -8,32 +8,20 @@ struct FirstChartView: View {
 
   var body: some View {
     List {
-      NavigationLink {
+      MBNavigationLink(title: "Bark Mark") {
         FirstChart_BarkMark()
-          .navigationTitle("Bark Mark")
-      } label: {
-        Text("Bark Mark")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Line Mark") {
         FirstChart_LineMark()
-          .navigationTitle("Line Mark")
-      } label: {
-        Text("Line Mark")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Layering Tips") {
         FirstChart_LayeringTips()
-          .navigationTitle("Layering Tips")
-      } label: {
-        Text("Layering Tips")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "With Dates") {
         FirstChart_WithDates()
-          .navigationTitle("With Dates")
-      } label: {
-        Text("With Dates")
       }
     }
   }

@@ -8,53 +8,32 @@ struct AreaMarkView: View {
 
   var body: some View {
     List {
-      NavigationLink {
-        AreaMark_Basics()
-          .navigationTitle("Basics")
-      } label: {
-        Text("Basics")
+      MBNavigationLink(title: "Basic") {
+        AreaMark_Basic()
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Series") {
         AreaMark_Series()
-          .navigationTitle("Series")
-      } label: {
-        Text("Series")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Interval") {
         AreaMark_Interval()
-          .navigationTitle("Interval")
-      } label: {
-        Text("Interval")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Interval xAxis") {
         AreaMark_Interval_xAxis()
-          .navigationTitle("Interval xAxis")
-      } label: {
-        Text("Interval xAxis")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Series Interval") {
         AreaMark_SeriesInterval()
-          .navigationTitle("Series Interval")
-      } label: {
-        Text("Series Interval")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Interpolation") {
         AreaMark_Interpolation()
-          .navigationTitle("Interpolation")
-      } label: {
-        Text("Interpolation")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Interval Interpolation") {
         AreaMark_IntervalInterpolation()
-          .navigationTitle("Interval Interpolation")
-      } label: {
-        Text("Interval Interpolation")
       }
     }
   }

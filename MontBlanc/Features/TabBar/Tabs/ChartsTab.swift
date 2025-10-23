@@ -5,57 +5,64 @@
 import SwiftUI
 
 struct ChartsTab: View {
-  
+
   var body: some View {
     NavigationStack {
       List {
-        NavigationLink {
+        MBNavigationLink(
+          title: "First Chart",
+          label: "Chapter 1 - First Chart"
+        ) {
           FirstChartView()
-            .navigationTitle("First Chart")
-        } label: {
-          Text("Chapter 1 - First Chart")
         }
-        
-        NavigationLink {
+
+        MBNavigationLink(
+          title: "Area Mark",
+          label: "Chapter 2 - Area Mark"
+        ) {
           AreaMarkView()
-            .navigationTitle("Area Mark")
-        } label: {
-          Text("Chapter 2 - Area Mark")
         }
-        
-        NavigationLink {
+
+        MBNavigationLink(
+          title: "Bar Mark",
+          label: "Chapter 3 - Bar Mark"
+        ) {
           BarMarkView()
-            .navigationTitle("Bar Mark")
-        } label: {
-          Text("Chapter 3 - Bar Mark")
         }
-        
-        NavigationLink {
+
+        MBNavigationLink(
+          title: "Line Mark",
+          label: "Chapter 4 - Line Mark"
+        ) {
           LineMarkView()
-            .navigationTitle("Line Mark")
-        } label: {
-          Text("Chapter 4 - Line Mark")
         }
-        
-        NavigationLink {
+
+        MBNavigationLink(
+          title: "Point Mark",
+          label: "Chapter 5 - Point Mark"
+        ) {
           PointMarkView()
-            .navigationTitle("Point Mark")
-        } label: {
-          Text("Chapter 5 - Point Mark")
         }
-        
-        NavigationLink {
+
+        MBNavigationLink(
+          title: "Rectangle Mark",
+          label: "Chapter 6 - Rectangle Mark"
+        ) {
           RectangleMarkView()
-            .navigationTitle("Rectangle Mark")
-        } label: {
-          Text("Chapter 6 - Rectangle Mark")
         }
-        
-        NavigationLink {
+
+        MBNavigationLink(
+          title: "Rule Mark",
+          label: "Chapter 7 - Rule Mark"
+        ) {
           RuleMarkView()
-            .navigationTitle("Rule Mark")
-        } label: {
-          Text("Chapter 7 - Rule Mark")
+        }
+
+        MBNavigationLink(
+          title: "Sector Mark",
+          label: "Chapter 8 - Sector Mark"
+        ) {
+          SectorMarkView()
         }
       }
       .navigationTitle("Charts")

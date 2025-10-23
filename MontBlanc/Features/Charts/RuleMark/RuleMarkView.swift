@@ -8,32 +8,20 @@ struct RuleMarkView: View {
 
   var body: some View {
     List {
-      NavigationLink {
+      MBNavigationLink(title: "Vertical") {
         RuleMark_Vertical()
-          .navigationTitle("Vertical")
-      } label: {
-        Text("Vertical")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Horizontal") {
         RuleMark_Horizontal()
-          .navigationTitle("Horizontal")
-      } label: {
-        Text("Horizontal")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Line Style") {
         RuleMark_LineStyle()
-          .navigationTitle("Line Style")
-      } label: {
-        Text("Line Style")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Combining with Charts") {
         RuleMark_CombiningWithOtherCharts()
-          .navigationTitle("Combining with Charts")
-      } label: {
-        Text("Combining with Charts")
       }
     }
   }

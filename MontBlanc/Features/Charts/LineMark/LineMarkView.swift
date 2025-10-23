@@ -8,67 +8,40 @@ struct LineMarkView: View {
 
   var body: some View {
     List {
-      NavigationLink {
+      MBNavigationLink(title: "Basic") {
         LineMark_Basic()
-          .navigationTitle("Basic")
-      } label: {
-        Text("Basic")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Series") {
         LineMark_Series()
-          .navigationTitle("Series")
-      } label: {
-        Text("Series")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Interval") {
         LineMark_Interval()
-          .navigationTitle("Interval")
-      } label: {
-        Text("Interval")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Series Interval") {
         LineMark_SeriesInterval()
-          .navigationTitle("Series Interval")
-      } label: {
-        Text("Series Interval")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Line Style") {
         LineMark_LineStyle()
-          .navigationTitle("Line Style")
-      } label: {
-        Text("Line Style")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Line Style Series") {
         LineMark_LineStyle_Series()
-          .navigationTitle("Line Style Series")
-      } label: {
-        Text("Line Style Series")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Chart Line Style Scale") {
         LineMark_ChartLineStyleScale()
-          .navigationTitle("Chart Line Style Scale")
-      } label: {
-        Text("Chart Line Style Scale")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Chart Line Style Scale Dynamic") {
         LineMark_ChartLineStyleScale_Dynamic()
-          .navigationTitle("Chart Line Style Scale Dynamic")
-      } label: {
-        Text("Chart Line Style Scale Dynamic")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Interpolation") {
         LineMark_Interpolation()
-          .navigationTitle("Interpolation")
-      } label: {
-        Text("Interpolation")
       }
     }
   }

@@ -8,53 +8,32 @@ struct RectangleMarkView: View {
 
   var body: some View {
     List {
-      NavigationLink {
+      MBNavigationLink(title: "Basic") {
         RectangleMark_Basic()
-          .navigationTitle("Basic")
-      } label: {
-        Text("Basic")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Width & Height") {
         RectangleMark_WidthHeight()
-          .navigationTitle("Width & Height")
-      } label: {
-        Text("Width & Height")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Corner Radius") {
         RectangleMark_CornerRadius()
-          .navigationTitle("Corner Radius")
-      } label: {
-        Text("Corner Radius")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Series") {
         RectangleMark_Series()
-          .navigationTitle("Series")
-      } label: {
-        Text("Series")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Interval") {
         RectangleMark_Interval()
-          .navigationTitle("Interval")
-      } label: {
-        Text("Interval")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Series Interval") {
         RectangleMark_SeriesInterval()
-          .navigationTitle("Series Interval")
-      } label: {
-        Text("Series Interval")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Interval Annotation") {
         RectangleMark_Interval_Annotation()
-          .navigationTitle("Interval Annotation")
-      } label: {
-        Text("Interval Annotation")
       }
     }
   }

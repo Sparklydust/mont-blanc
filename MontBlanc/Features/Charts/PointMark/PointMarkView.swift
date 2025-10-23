@@ -8,60 +8,36 @@ struct PointMarkView: View {
 
   var body: some View {
     List {
-      NavigationLink {
+      MBNavigationLink(title: "Basic") {
         PointMark_Basic()
-          .navigationTitle("Basic")
-      } label: {
-        Text("Basic")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Series") {
         PointMark_Series()
-          .navigationTitle("Series")
-      } label: {
-        Text("Series")
       }
 
-      NavigationLink {
-        PointMark_Series()
-          .navigationTitle("Interval")
-      } label: {
-        Text("Interval")
+      MBNavigationLink(title: "Interval") {
+        PointMark_Interval()
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Series Interval") {
         PointMark_SeriesInterval()
-          .navigationTitle("Series Interval")
-      } label: {
-        Text("Series Interval")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Size By Value") {
         PointMark_SizeByValue()
-          .navigationTitle("Size By Value")
-      } label: {
-        Text("Size By Value")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Symbol") {
         PointMark_Symbol()
-          .navigationTitle("Symbol")
-      } label: {
-        Text("Symbol")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Custom Symbol") {
         PointMark_CustomSymbol()
-          .navigationTitle("Custom Symbol")
-      } label: {
-        Text("Custom Symbol")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Series Symbol By") {
         PointMark_Series_SymbolBy()
-          .navigationTitle("Series Symbol By")
-      } label: {
-        Text("Series Symbol By")
       }
     }
   }

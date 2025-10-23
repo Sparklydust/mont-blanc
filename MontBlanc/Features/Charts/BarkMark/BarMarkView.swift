@@ -8,60 +8,36 @@ struct BarMarkView: View {
 
   var body: some View {
     List {
-      NavigationLink {
+      MBNavigationLink(title: "Basic") {
         BarMark_Basic()
-          .navigationTitle("Basic")
-      } label: {
-        Text("Basic")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Width") {
         BarMark_Width()
-          .navigationTitle("Width")
-      } label: {
-        Text("Width")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Series") {
         BarMark_Series()
-          .navigationTitle("Series")
-      } label: {
-        Text("Series")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Interval") {
         BarMark_Interval()
-          .navigationTitle("Interval")
-      } label: {
-        Text("Interval")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Series Interval") {
         BarMark_SeriesInterval()
-          .navigationTitle("Series Interval")
-      } label: {
-        Text("Series Interval")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Series Side by Side") {
         BarMark_Series_SideBySide()
-          .navigationTitle("Series Side by Side")
-      } label: {
-        Text("Series Side by Side")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Corner Radius") {
         BarMark_CornerRadius()
-          .navigationTitle("Corner Radius")
-      } label: {
-        Text("Corner Radius")
       }
 
-      NavigationLink {
+      MBNavigationLink(title: "Clip Shape") {
         BarMark_ClipShape()
-          .navigationTitle("Clip Shape")
-      } label: {
-        Text("Clip Shape")
       }
     }
   }

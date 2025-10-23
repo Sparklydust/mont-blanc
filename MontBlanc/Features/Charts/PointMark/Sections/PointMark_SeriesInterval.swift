@@ -17,11 +17,11 @@ struct PointMark_SeriesInterval: View {
       )
       .foregroundStyle(by: .value("Series", item.series))
 
-        PointMark(
-          x: .value("Label", item.label),
-          y: .value("Value", item.endValue)
-        )
-        .foregroundStyle(by: .value("Series", item.series))
+      PointMark(
+        x: .value("Label", item.label),
+        y: .value("Value", item.endValue)
+      )
+      .foregroundStyle(by: .value("Series", item.series))
     }
     .mbChartsContainer()
   }
