@@ -10,8 +10,8 @@ struct ChartsTab: View {
     NavigationStack {
       List {
         MBNavigationLink(
-          title: "First Chart",
-          label: "Chapter 1 - First Chart"
+          title: "First Charts",
+          label: "Chapter 1 - First Charts"
         ) {
           FirstChartView()
         }
@@ -71,5 +71,7 @@ struct ChartsTab: View {
 }
 
 #Preview {
-  ChartsTab()
+  NavigationStack {
+    ChartsTab()
+  }
 }

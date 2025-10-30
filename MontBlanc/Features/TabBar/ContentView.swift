@@ -11,6 +11,10 @@ struct ContentView: View {
       Tab("Charts", systemImage: "chart.bar.fill") {
         ChartsTab()
       }
+
+      Tab("Modifiers", systemImage: "paintpalette.fill") {
+        ModifiersTab()
+      }
     }
   }
 }
