@@ -15,6 +15,10 @@ struct ContentView: View {
       Tab("Modifiers", systemImage: "paintpalette.fill") {
         ModifiersTab()
       }
+
+      Tab("Customizations", systemImage: "chart.line.uptrend.xyaxis") {
+        CustomizationsTab()
+      }
     }
   }
 }
