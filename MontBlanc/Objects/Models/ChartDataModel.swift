@@ -31,6 +31,15 @@ extension ChartDataModel {
     ]
   }
 
+  static func mockMultiWordLabelData() -> [ChartDataModel] {
+    [
+      ChartDataModel(label: "Urban Homes", value: 97),
+      ChartDataModel(label: "City Living", value: 22),
+      ChartDataModel(label: "Countryside", value: 69),
+      ChartDataModel(label: "Forest Retreat", value: 51)
+    ]
+  }
+
   static func mockNegativeMonthData() -> [ChartDataModel] {
     [
       ChartDataModel(label: "May", value: -50),

@@ -16,8 +16,12 @@ struct ContentView: View {
         ModifiersTab()
       }
 
-      Tab("Customizations", systemImage: "chart.line.uptrend.xyaxis") {
+      Tab("Customizations", systemImage: "chart.line.text.clipboard") {
         CustomizationsTab()
+      }
+
+      Tab("Axes", systemImage: "chart.line.flattrend.xyaxis") {
+        AxesTab()
       }
     }
   }
