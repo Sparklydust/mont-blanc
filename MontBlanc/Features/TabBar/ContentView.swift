@@ -23,6 +23,10 @@ struct ContentView: View {
       Tab("Axes", systemImage: "chart.line.flattrend.xyaxis") {
         AxesTab()
       }
+
+      Tab("Magnifiers", systemImage: "wand.and.sparkles.inverse") {
+        MagnifiersTab()
+      }
     }
   }
 }
