@@ -37,7 +37,6 @@ extension ChartSeriesDataModel {
 
       ChartSeriesDataModel(series: "Last Year", label: "Q1", value: 25),
       ChartSeriesDataModel(series: "Last Year", label: "Q2", value: 50),
-      ChartSeriesDataModel(series: "Last Year", label: "Q3", value: 100),
       ChartSeriesDataModel(series: "Last Year", label: "Q4", value: 75)
     ]
   }

@@ -66,6 +66,36 @@ struct MagnifiersTab: View {
             Annotation_Overflow_FitTo()
           }
         }
+
+        Section("Legends") {
+          MBNavigationLink(
+            title: "How to Show",
+            label: "Chapter 77 - How to Show"
+          ) {
+            ChartLegend_HowToShow()
+          }
+
+          MBNavigationLink(
+            title: "Hiding",
+            label: "Chapter 78 - Hiding"
+          ) {
+            ChartLegend_Hiding()
+          }
+
+          MBNavigationLink(
+            title: "Customization",
+            label: "Chapter 79 - Customization"
+          ) {
+            ChartLegend_Customization()
+          }
+
+          MBNavigationLink(
+            title: "Content",
+            label: "Chapter 80 - Content"
+          ) {
+            ChartLegend_Content()
+          }
+        }
       }
     }
   }
