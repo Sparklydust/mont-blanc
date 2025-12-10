@@ -96,6 +96,50 @@ struct MagnifiersTab: View {
             ChartLegend_Content()
           }
         }
+
+        Section("Scrolling") {
+          MBNavigationLink(
+            title: "Horizontally",
+            label: "Chapter 81 - Horizontally"
+          ) {
+            Scrolling_ChartScrollableAxes()
+          }
+
+          MBNavigationLink(
+            title: "Vertically",
+            label: "Chapter 82 - Vertically"
+          ) {
+            Scrolling_ChartScrollableAxes_Vertical()
+          }
+
+          MBNavigationLink(
+            title: "Visible Domain",
+            label: "Chapter 83 - Visible Domain"
+          ) {
+            Scrolling_ChartVisibleDomain()
+          }
+
+          MBNavigationLink(
+            title: "Visible Domain for Dates",
+            label: "Chapter 84 - Visible Domain for Dates"
+          ) {
+            Scrolling_ChartVisibleDomain_ForDates()
+          }
+
+          MBNavigationLink(
+            title: "Scroll to Position",
+            label: "Chapter 85 - Scroll to Position"
+          ) {
+            Scrolling_ChartScrollPosition()
+          }
+
+          MBNavigationLink(
+            title: "Target Behavior",
+            label: "Chapter 86 - Target Behavior"
+          ) {
+            Scrolling_ChartScrollTargetBehavior()
+          }
+        }
       }
     }
   }
