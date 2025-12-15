@@ -140,6 +140,50 @@ struct MagnifiersTab: View {
             Scrolling_ChartScrollTargetBehavior()
           }
         }
+
+        Section("Animating") {
+          MBNavigationLink(
+            title: "From Zero",
+            label: "Chapter 87 - From Zero"
+          ) {
+            Animation_FromZero()
+          }
+
+          MBNavigationLink(
+            title: "One by One on Bar",
+            label: "Chapter 88 - One by One on Bar"
+          ) {
+            Animation_OneByOne()
+          }
+
+          MBNavigationLink(
+            title: "One by One on Sector",
+            label: "Chapter 89 - One by One on Sector"
+          ) {
+            Animation_OneByOne_SectorMark()
+          }
+
+          MBNavigationLink(
+            title: "Changing Values",
+            label: "Chapter 90 - Changing Values"
+          ) {
+            Animation_ChangingValues()
+          }
+
+          MBNavigationLink(
+            title: "Line Across",
+            label: "Chapter 91 - Line Accros"
+          ) {
+            Animation_LineMark_Across()
+          }
+
+          MBNavigationLink(
+            title: "Point Phase",
+            label: "Chapter 92 - Point Phase"
+          ) {
+            Animation_PointMark()
+          }
+        }
       }
     }
   }

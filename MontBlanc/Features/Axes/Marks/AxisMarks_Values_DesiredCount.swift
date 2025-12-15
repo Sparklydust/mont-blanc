@@ -7,8 +7,9 @@ import SwiftUI
 
 struct AxisMarks_Values_DesiredCount: View {
 
-  private let data = ChartDataModel.mockMonthData()
   @State private var yAxisValueCount: Double = 5
+
+  private let data = ChartDataModel.mockMonthData()
 
   var body: some View {
     Chart(data) { item in

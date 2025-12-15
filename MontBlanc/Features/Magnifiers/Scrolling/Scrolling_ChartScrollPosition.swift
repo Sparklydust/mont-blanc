@@ -7,8 +7,9 @@ import SwiftUI
 
 struct Scrolling_ChartScrollPosition: View {
 
-  private let data = ChartDataModel.mockYearData(numberOfYears: 15)
   @State private var scrollPosition = String()
+
+  private let data = ChartDataModel.mockYearData(numberOfYears: 15)
 
   var body: some View {
     VStack {
