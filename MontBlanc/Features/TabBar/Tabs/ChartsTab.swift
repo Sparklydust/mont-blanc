@@ -11,56 +11,56 @@ struct ChartsTab: View {
       List {
         MBNavigationLink(
           title: "First Charts",
-          label: "Chapter 1 - First Charts"
+          label: "1 - First Charts"
         ) {
           FirstChartView()
         }
 
         MBNavigationLink(
           title: "Area Mark",
-          label: "Chapter 2 - Area Mark"
+          label: "2 - Area Mark"
         ) {
           AreaMarkView()
         }
 
         MBNavigationLink(
           title: "Bar Mark",
-          label: "Chapter 3 - Bar Mark"
+          label: "3 - Bar Mark"
         ) {
           BarMarkView()
         }
 
         MBNavigationLink(
           title: "Line Mark",
-          label: "Chapter 4 - Line Mark"
+          label: "4 - Line Mark"
         ) {
           LineMarkView()
         }
 
         MBNavigationLink(
           title: "Point Mark",
-          label: "Chapter 5 - Point Mark"
+          label: "5 - Point Mark"
         ) {
           PointMarkView()
         }
 
         MBNavigationLink(
           title: "Rectangle Mark",
-          label: "Chapter 6 - Rectangle Mark"
+          label: "6 - Rectangle Mark"
         ) {
           RectangleMarkView()
         }
 
         MBNavigationLink(
           title: "Rule Mark",
-          label: "Chapter 7 - Rule Mark"
+          label: "7 - Rule Mark"
         ) {
           RuleMarkView()
         }
 
         MBNavigationLink(
           title: "Sector Mark",
-          label: "Chapter 8 - Sector Mark"
+          label: "8 - Sector Mark"
         ) {
           SectorMarkView()
         }

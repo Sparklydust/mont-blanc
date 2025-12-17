@@ -12,21 +12,21 @@ struct AxesTab: View {
         Section("General") {
           MBNavigationLink(
             title: "Y Axis Parts",
-            label: "Chapter 38 - Y Axis Parts"
+            label: "38 - Y Axis Parts"
           ) {
             ChartYAxis_Parts()
           }
 
           MBNavigationLink(
             title: "X Axis Parts",
-            label: "Chapter 39 - X Axis Parts"
+            label: "39 - X Axis Parts"
           ) {
             ChartXAxis_Parts()
           }
 
           MBNavigationLink(
             title: "Hiding",
-            label: "Chapter 40 - Hiding"
+            label: "40 - Hiding"
           ) {
             ChartAxis_Hiding()
           }
@@ -35,70 +35,70 @@ struct AxesTab: View {
         Section("Axis Marks") {
           MBNavigationLink(
             title: "Intro",
-            label: "Chapter 41 - Intro"
+            label: "41 - Intro"
           ) {
             AxisMarks_Intro()
           }
 
           MBNavigationLink(
             title: "Format Options",
-            label: "Chapter 42 - Format Options"
+            label: "42 - Format Options"
           ) {
             AxisMarks_Format_Options()
           }
 
           MBNavigationLink(
             title: "Preset Options",
-            label: "Chapter 43 - Preset Options"
+            label: "43 - Preset Options"
           ) {
             AxisMarks_Preset_Options()
           }
 
           MBNavigationLink(
             title: "Position Options",
-            label: "Chapter 44 - Position Options"
+            label: "44 - Position Options"
           ) {
             AxisMarks_Position_Options()
           }
 
           MBNavigationLink(
             title: "Values Desired Count",
-            label: "Chapter 45 - Values Desired Count"
+            label: "45 - Values Desired Count"
           ) {
             AxisMarks_Values_DesiredCount()
           }
 
           MBNavigationLink(
             title: "Values Hardcore",
-            label: "Chapter 46 - Values Hardcore"
+            label: "46 - Values Hardcore"
           ) {
             AxisMarks_Values_Hardcode()
           }
 
           MBNavigationLink(
             title: "Values Stride",
-            label: "Chapter 47 - Values Stride"
+            label: "47 - Values Stride"
           ) {
             AxisMarks_Values_Stride()
           }
 
           MBNavigationLink(
             title: "Stroke",
-            label: "Chapter 48 - Stroke"
+            label: "48 - Stroke"
           ) {
             AxisMarks_Stroke()
           }
 
           MBNavigationLink(
             title: "Content X Axis",
-            label: "Chapter 49 - Content X Axis"
+            label: "49 - Content X Axis"
           ) {
             AxisMarks_Content_XAxis()
           }
 
           MBNavigationLink(
             title: "Content Y Axis",
-            label: "Chapter 50 - Content Y Axis"
+            label: "50 - Content Y Axis"
           ) {
             AxisMarks_Content_YAxis()
           }
@@ -107,35 +107,35 @@ struct AxesTab: View {
         Section("Axis Grid Line") {
           MBNavigationLink(
             title: "Show & Hide",
-            label: "Chapter 51 - Show & Hide"
+            label: "51 - Show & Hide"
           ) {
             GridLines_ShowAndHide()
           }
 
           MBNavigationLink(
             title: "Centering",
-            label: "Chapter 52 - Centering"
+            label: "52 - Centering"
           ) {
             GridLines_Centering()
           }
 
           MBNavigationLink(
             title: "Stroke",
-            label: "Chapter 53 - Stroke"
+            label: "53 - Stroke"
           ) {
             GridLines_Stroke()
           }
 
           MBNavigationLink(
             title: "Color",
-            label: "Chapter 54 - Color"
+            label: "54 - Color"
           ) {
             GridLines_Color()
           }
 
           MBNavigationLink(
             title: "Conditional Style",
-            label: "Chapter 55 - Conditional Style"
+            label: "55 - Conditional Style"
           ) {
             GridLines_ConditionalStyle()
           }
@@ -144,49 +144,49 @@ struct AxesTab: View {
         Section("Axis Value Label") {
           MBNavigationLink(
             title: "Show & Hide",
-            label: "Chapter 56 - Show & Hide"
+            label: "56 - Show & Hide"
           ) {
             AxisValueLabel_ShowHide()
           }
 
           MBNavigationLink(
             title: "String Parameter",
-            label: "Chapter 57 - String Parameter"
+            label: "57 - String Parameter"
           ) {
             AxisValueLabel_StringParameter()
           }
 
           MBNavigationLink(
             title: "Multi Label Alignment",
-            label: "Chapter 58 - Multi Label Alignment"
+            label: "58 - Multi Label Alignment"
           ) {
             AxisValueLabel_MultiLabelAlignment()
           }
 
           MBNavigationLink(
             title: "Customize Labels",
-            label: "Chapter 59 - Customize Labels"
+            label: "59 - Customize Labels"
           ) {
             AxisValueLabel_CustomizeLabels()
           }
 
           MBNavigationLink(
             title: "Conditional Formatting",
-            label: "Chapter 60 - Conditional Formatting"
+            label: "60 - Conditional Formatting"
           ) {
             AxisValueLabel_ConditionalFormatting()
           }
 
           MBNavigationLink(
             title: "Wrapping Text",
-            label: "Chapter 61 - Wrapping Text"
+            label: "61 - Wrapping Text"
           ) {
             AxisValueLabel_WrappingText()
           }
 
           MBNavigationLink(
             title: "Rotating Text",
-            label: "Chapter 62 - Rotating Text"
+            label: "62 - Rotating Text"
           ) {
             AxisValueLabel_RotatingText()
           }
@@ -195,28 +195,28 @@ struct AxesTab: View {
         Section("Axis Tick") {
           MBNavigationLink(
             title: "Intro",
-            label: "Chapter 63 - Intro"
+            label: "63 - Intro"
           ) {
             AxisTick_Intro()
           }
 
           MBNavigationLink(
             title: "Parameters",
-            label: "Chapter 64 - Parameters"
+            label: "64 - Parameters"
           ) {
             AxisTick_Parameters()
           }
 
           MBNavigationLink(
             title: "Length",
-            label: "Chapter 65 - Length"
+            label: "65 - Length"
           ) {
             AxisTick_Length()
           }
 
           MBNavigationLink(
             title: "Modifiers",
-            label: "Chapter 66 - Modifiers"
+            label: "66 - Modifiers"
           ) {
             AxisTick_Modifiers()
           }
@@ -225,21 +225,21 @@ struct AxesTab: View {
         Section("Axis Labels") {
           MBNavigationLink(
             title: "X Axis",
-            label: "Chapter 67 - X Axis"
+            label: "67 - X Axis"
           ) {
             AxisLabel_XAxis()
           }
 
           MBNavigationLink(
             title: "With Content",
-            label: "Chapter 69 - With Content"
+            label: "69 - With Content"
           ) {
             AxisLabel_WithContent()
           }
 
           MBNavigationLink(
             title: "Y Axis",
-            label: "Chapter 68 - Y Axis"
+            label: "68 - Y Axis"
           ) {
             AxisLabel_YAxis()
           }

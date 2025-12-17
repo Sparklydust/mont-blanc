@@ -18,7 +18,11 @@ struct AxisLabel_WithContent: View {
     }
     .chartXAxisLabel(position: .top, spacing: 32) {
       Text("Transaction Count")
+        #if os(macOS)
+        .foregroundStyle(Color(NSColor.labelColor))
+        #else
         .foregroundStyle(Color(UIColor.label))
+        #endif
         .font(.headline)
     }
     .chartXAxisLabel(position: .top) {
