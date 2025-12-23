@@ -16,6 +16,7 @@ private struct MBChartsContainerModifier: ViewModifier {
   func body(content: Content) -> some View {
     content
       .padding()
+      .padding(.vertical)
       .aspectRatio(contentMode: .fit)
       .dynamicTypeSize(.xxLarge)
   }

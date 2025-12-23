@@ -21,11 +21,11 @@ struct Interact_ChartXSelection_DateRange: View {
         )
       }
       .chartXSelection(range: $selectedRange)
-    }
-    .mbChartsContainer()
+      .mbChartsContainer()
 
-    Text(rangeText)
-      .padding()
+      Text(rangeText)
+        .padding()
+    }
   }
 }
 

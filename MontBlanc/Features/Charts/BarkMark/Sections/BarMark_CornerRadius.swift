@@ -11,24 +11,26 @@ struct BarMark_CornerRadius: View {
   private let interval = ChartIntervalModel.mockWeekData()
 
   var body: some View {
-    Chart(data) { item in
-      BarMark(
-        x: .value("Label", item.label),
-        y: .value("Value", item.value)
-      )
-      .cornerRadius(16)
-    }
-    .mbChartsContainer()
+    VStack {
+      Chart(data) { item in
+        BarMark(
+          x: .value("Label", item.label),
+          y: .value("Value", item.value)
+        )
+        .cornerRadius(16)
+      }
+      .mbChartsContainer()
 
-    Chart(interval) { item in
-      BarMark(
-        x: .value("Label", item.label),
-        yStart: .value("Start", item.startValue),
-        yEnd: .value("End", item.endValue)
-      )
-      .cornerRadius(16)
+      Chart(interval) { item in
+        BarMark(
+          x: .value("Label", item.label),
+          yStart: .value("Start", item.startValue),
+          yEnd: .value("End", item.endValue)
+        )
+        .cornerRadius(16)
+      }
+      .mbChartsContainer()
     }
-    .mbChartsContainer()
   }
 }
 
