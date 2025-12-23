@@ -228,6 +228,22 @@ struct MagnifiersTab: View {
             Interact_ChartAngleSelection()
           }
         }
+
+        Section("Candlestick Chart") {
+          MBNavigationLink(
+            title: "Example",
+            label: "99 - Example"
+          ) {
+            CandlestickChartView()
+          }
+
+          MBNavigationLink(
+            title: "Min and Max for Y Scale",
+            label: "100 - Min and Max for Y Scale"
+          ) {
+            CandlestickChart_MinMaxView()
+          }
+        }
       }
       .navigationTitle("Magnifiers")
     }
