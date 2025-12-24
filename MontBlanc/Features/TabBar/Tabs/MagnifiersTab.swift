@@ -244,6 +244,22 @@ struct MagnifiersTab: View {
             CandlestickChart_MinMaxView()
           }
         }
+
+        Section("Bubble Chart") {
+          MBNavigationLink(
+            title: "Example",
+            label: "101 - Example"
+          ) {
+            BubbleChartView()
+          }
+
+          MBNavigationLink(
+            title: "With Legend",
+            label: "102 - With Legend"
+          ) {
+            BubbleChart_WithLegendView()
+          }
+        }
       }
       .navigationTitle("Magnifiers")
     }
